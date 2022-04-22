@@ -12,7 +12,7 @@ Video de apresentação do pojeto https://www.youtube.com/watch?v=GSrZvL5tftI
 
 
   # Observações Importantes
-###     Foram aplicadas as seguintes tecnicas
+### Foram aplicadas as seguintes técnicas
 -    Arquitetura MVC
 -    Programação Funcional
 -    OOP  
