@@ -1,0 +1,254 @@
+object ComponenteViewPaletaCores: TComponenteViewPaletaCores
+  Left = 0
+  Top = 0
+  Caption = 'Form2'
+  ClientHeight = 169
+  ClientWidth = 328
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object selCorFundo: TCalloutRectangle
+    Fill.Color = claWhitesmoke
+    Position.X = 24.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 105.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgray
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+    CalloutPosition = Left
+    CalloutOffset = 15.000000000000000000
+    object Circle1: TCircle
+      Fill.Color = xFF043C6C
+      Position.X = 16.000000000000000000
+      Position.Y = 74.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle2: TCircle
+      Fill.Color = claBlack
+      Position.X = 48.000000000000000000
+      Position.Y = 42.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle3: TCircle
+      Fill.Color = xFF2F4930
+      Position.X = 16.000000000000000000
+      Position.Y = 42.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle4: TCircle
+      Fill.Color = claWhite
+      Position.X = 16.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle5: TCircle
+      Fill.Color = xFFFDF7DC
+      Position.X = 48.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+  end
+  object selCorCaracter1: TCalloutRectangle
+    Fill.Color = claWhitesmoke
+    Position.X = 128.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 115.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgray
+    CalloutWidth = 20.000000000000000000
+    CalloutLength = 11.000000000000000000
+    CalloutPosition = Left
+    CalloutOffset = 15.000000000000000000
+    object Circle6: TCircle
+      Fill.Color = xFFFFFA67
+      Position.X = 17.000000000000000000
+      Position.Y = 31.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle7: TCircle
+      Fill.Color = xFFFFBD55
+      Position.X = 49.000000000000000000
+      Position.Y = 31.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle8: TCircle
+      Fill.Color = claWhite
+      Position.X = 17.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle9: TCircle
+      Fill.Color = xFFE6E6E6
+      Position.X = 49.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle10: TCircle
+      Fill.Color = xFFECACFF
+      Position.X = 17.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle11: TCircle
+      Fill.Color = xFFFF94D9
+      Position.X = 49.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle12: TCircle
+      Fill.Color = xFFA1C0FF
+      Position.X = 17.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle13: TCircle
+      Fill.Color = xFF85DE71
+      Position.X = 49.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+  end
+  object selCorCaracter2: TCalloutRectangle
+    Fill.Color = claWhitesmoke
+    Position.X = 224.000000000000000000
+    Position.Y = 14.000000000000000000
+    Size.Width = 80.000000000000000000
+    Size.Height = 115.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgray
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+    CalloutPosition = Left
+    CalloutOffset = 15.000000000000000000
+    object Circle14: TCircle
+      Fill.Color = xFFBD0B70
+      Position.X = 17.000000000000000000
+      Position.Y = 31.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle15: TCircle
+      Fill.Color = xFFB02E20
+      Position.X = 49.000000000000000000
+      Position.Y = 31.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle16: TCircle
+      Fill.Color = claBlack
+      Position.X = 17.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle17: TCircle
+      Fill.Color = claCrimson
+      Position.X = 49.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle18: TCircle
+      Fill.Color = claBlueviolet
+      Position.X = 17.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle19: TCircle
+      Fill.Color = claBlue
+      Position.X = 49.000000000000000000
+      Position.Y = 58.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+    object Circle20: TCircle
+      Fill.Color = claGreen
+      Position.X = 17.000000000000000000
+      Position.Y = 85.000000000000000000
+      Size.Width = 25.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      OnClick = Circle4Click
+    end
+  end
+  object selBrilho: TCalloutRectangle
+    Fill.Color = claWhitesmoke
+    Position.Y = 134.000000000000000000
+    Size.Width = 305.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Color = claDarkgray
+    CalloutWidth = 23.000000000000000000
+    CalloutLength = 11.000000000000000000
+    CalloutPosition = Left
+    object TrackBarBrilho: TTrackBar
+      Align = Center
+      CanParentFocus = True
+      Orientation = Horizontal
+      Size.Width = 197.000000000000000000
+      Size.Height = 19.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      Value = 100.000000000000000000
+      OnChange = TrackBarBrilhoChange
+      OnTracking = TrackBarBrilhoTracking
+    end
+  end
+end
