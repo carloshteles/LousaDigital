@@ -3,9 +3,7 @@
 
 # Projeto Apresentação Lousa Digital
 
-
-Video de apresentação do pojeto https://www.youtube.com/watch?v=GSrZvL5tftI
-
+[![texto](https://i9.ytimg.com/vi/GSrZvL5tftI/mq1.jpg?sqp=CIDti5MG&rs=AOn4CLBFZCrmUsz1pmiLZCAMfgNxZXROSA)](https://www.youtube.com/watch?v=GSrZvL5tftI "Assista o video")
 
 
 - Projeto desenvolvido em linguagem Delphi como apresentação e testes em processo de seleção para desenvolvedor Delphi Senior.
